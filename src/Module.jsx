@@ -1,7 +1,7 @@
 const Module = () => {
   return (
     <>
-      <h2>This is your Module</h2>
+      <h1>This is your Module</h1>
     </>
   );
 };
