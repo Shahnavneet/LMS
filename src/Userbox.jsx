@@ -1,10 +1,10 @@
 const Userbox = () => {
   return (
     <>
-      <div className="w-3/12 h-auto bg-slate-100 absolute right-0  rounded-md mt-16 gap-2 flex flex-col">
+      <div className="w-3/12 h-auto bg-slate-50 absolute right-0  rounded-md mt-16 gap-2 flex flex-col">
         <div className="flex flex-col justify-center items-center border-2 m-1 p-3">
-          <div className="w-12 h-12 bg-blue-950 rounded-full flex justify-center items-center relative ">
-            <h2>N</h2>
+          <div className="w-12 h-12 bg-blue-700 rounded-full flex justify-center items-center relative ">
+            <span className="font-bold ">N</span>
           </div>
           <h3>Navneet shah</h3>
           <h5>Navneetshah41@gmail.com</h5>

@@ -3,11 +3,13 @@ import Sidebar from "./Sidebar";
 import Batch from "./Batch";
 import Module from "./Module";
 import Test from "./Test";
-import Resource from "./Resource";
+import Payment from "./Payments";
 import Upcoming from "./Upcoming";
 import Completed from "./Completed";
 import Course from "./Course";
 import Userbox from "./Userbox";
+import Assigments from "./Allassigment";
+import Newass from "./NewAssigment";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { useState } from "react";
 
@@ -38,8 +40,8 @@ const Mod = () => {
                 </svg>
               </div>
               <div className="flex gap-4 justify-center items-center">
-                <div className="w-12 h-12 bg-blue-950 rounded-full flex justify-center items-center">
-                  <h2>N</h2>
+                <div className="w-12 h-12 bg-blue-700 rounded-full flex justify-center items-center">
+                  <span className="font-bold">N</span>
                 </div>
                 <h3>Hi,</h3>
               </div>
@@ -69,8 +71,11 @@ const Mod = () => {
                   <Route path="Upcoming" element={<Upcoming />}></Route>
                   <Route path="Completed" element={<Completed />}></Route>
                 </Route>
-                <Route path="/Test" element={<Test />}></Route>
-                <Route path="/Resource" element={<Resource />}></Route>
+                <Route path="/Test" element={<Test />}>
+                  <Route path="Allassigment" element={<Assigments />}></Route>
+                  <Route path="NewAssigment" element={<Newass />}></Route>
+                </Route>
+                <Route path="/Payment" element={<Payment />}></Route>
               </Routes>
             </div>
           </div>

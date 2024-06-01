@@ -79,19 +79,19 @@ const Cardd = () => {
         </div>
         <div className="flex justify-evenly p-2 w-1/2 mt-4">
           <Link to="Course">
-            <div className="rounded-2xl border border-solid border-slate-400 p-1 w-20 hover:bg-indigo-800 flex justify-center">
+            <div className="rounded-2xl border border-solid border-slate-400 p-1 w-20 hover:bg-blue-700 flex justify-center">
               Current
             </div>
           </Link>
 
           <Link to="Upcoming">
-            <div className="rounded-2xl border border-solid border-slate-400 p-1 w-24 hover:bg-indigo-800 flex justify-center">
+            <div className="rounded-2xl border border-solid border-slate-400 p-1 w-24 hover:bg-blue-700 flex justify-center">
               Upcoming
             </div>
           </Link>
 
           <Link to="Completed">
-            <div className="rounded-2xl border border-solid border-slate-400 p-1 w-24 hover:bg-indigo-800 flex justify-center">
+            <div className="rounded-2xl border border-solid border-slate-400 p-1 w-24 hover:bg-blue-700 flex justify-center">
               Completed
             </div>
           </Link>
